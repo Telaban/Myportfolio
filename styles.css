@@ -30,6 +30,14 @@ body {
     font-size: 20px;
   }
 }
+
+@media (min-width: 768px) {
+  section {
+    padding: 4rem 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
 img, video {
   max-width: 100%;
   height: auto;
@@ -197,8 +205,12 @@ body{
 
  }
  section{
-   height: 100vh;
- }
+  height: 100vh;
+  padding: 2rem 1rem; /* top/bottom: 2rem, left/right: 1rem */
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc; /* optional: visual separation */
+}
+
  .about-content{
    justify-content: center;
    align-items: center;
