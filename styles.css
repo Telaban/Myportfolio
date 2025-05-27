@@ -10,8 +10,7 @@
 }
 body{
     background:rgb(25, 39, 51);
-    color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
 }
 .header{
     position: fixed;
@@ -132,7 +131,7 @@ body{
  }
  .footer{
    position: relative;
-   display: flex
+   display: flex;
    justify-content: center;
    align-items: center;
    background: black;
