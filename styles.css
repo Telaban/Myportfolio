@@ -8,6 +8,38 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+
+/* Mobile-first (default) */
+body {
+  font-size: 16px;
+  padding: 10px;
+
+  flex-wrap: wrap;
+}
+
+/* For tablets and up */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* For desktops and up */
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+button, a {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+
 body{
     background:rgb(25, 39, 51);
     color: #fff;
