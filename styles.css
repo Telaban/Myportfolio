@@ -165,7 +165,7 @@ body{
 
  }
  section{
-   height: 100vh;
+   height: 150vh;
  }
  .about-content{
    justify-content: center;
@@ -267,14 +267,3 @@ body{
  }
 
    
-/* Mobile styles */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 20px;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-}
